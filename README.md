@@ -9,7 +9,7 @@ The original study reports similar computational cost but more robust results co
 
 **Reference Paper:** Extended Isolation Forest – IEEE
 
-![Comparison of Isolation Forest Variants](imgs/blob.png)
+![Comparison of Isolation Forest Variants](imgs/blobs.png)
 *Img by: HARIRI ET AL.: EXTENDED ISOLATION FOREST*
 
 ## Extension Level Parameter
@@ -34,6 +34,17 @@ A Genetic Algorithm (GA) is a metaheuristic inspired by the process of natural s
 - Contamination rate
 - Extension level
 
+
+## License
+
+Personal contributions marked under MIT license, please refer to eif/license.txt for license for extended isolation forest.
+
+## References
+
+https://ieeexplore.ieee.org/document/8888179
+https://github.com/sahandha/eif
+https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/eif.html
+
 ## Using the Ready Files
 
 You can directly load and use the pretrained EIF and One-Class SVM models:
@@ -50,17 +61,10 @@ with open("models/ocsvm_augmented.pkl", "rb") as f:
 eif_scores = forest.compute_paths(X_test)
 svm_preds = oc_svm.predict(X_test)
 
-'''
 
-##License
 
-Personal contributions marked under MIT license, please refer to eif/license.txt for license for extended isolation forest.
 
-##References
 
-https://ieeexplore.ieee.org/document/8888179
-https://github.com/sahandha/eif
-https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/eif.html
 
 
 
