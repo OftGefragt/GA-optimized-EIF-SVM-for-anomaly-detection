@@ -41,9 +41,9 @@ Personal contributions marked under MIT license, please refer to eif/license.txt
 
 ## References
 
-https://ieeexplore.ieee.org/document/8888179
-https://github.com/sahandha/eif
-https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/eif.html
+*https://ieeexplore.ieee.org/document/8888179
+* https://github.com/sahandha/eif
+* https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/eif.html
 
 ## Using the Ready Files
 
