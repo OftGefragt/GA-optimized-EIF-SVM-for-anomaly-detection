@@ -50,6 +50,8 @@ with open("models/ocsvm_augmented.pkl", "rb") as f:
 eif_scores = forest.compute_paths(X_test)
 svm_preds = oc_svm.predict(X_test)
 
+'''
+
 ##License
 
 Personal contributions marked under MIT license, please refer to eif/license.txt for license for extended isolation forest.
