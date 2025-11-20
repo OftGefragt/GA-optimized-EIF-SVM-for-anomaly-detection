@@ -36,7 +36,7 @@ A Genetic Algorithm (GA) is a metaheuristic inspired by the process of natural s
 
 ### Visualisation 
 
-![t-SNE for isoforest](tsne_eif_svm.png)
+![t-SNE for isoforest](imgs/tsne_eif_svm.png)
 
 ## License
 
